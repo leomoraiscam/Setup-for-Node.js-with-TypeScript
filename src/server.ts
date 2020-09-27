@@ -1,8 +1,8 @@
-import express from 'express';
-import '@controllers/UserController';
+import express from 'express'
+// import '@controllers/UserController';
 
-const app = express();
+const app = express()
 
-app.listen(3333, ()=>{
-  console.log(`🚀 Server is running`);
+app.listen(3333, () => {
+  console.log('🚀 Server is running')
 })
